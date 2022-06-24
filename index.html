@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN-Card Form</title>
+    <style>
+        spam {
+            color: red;
+        }
+
+        table,tr,td
+         {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        *{
+            margin:0px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div style= "background-color:lightyellow;">
+        <!-- heading+table starts -->
+        <div>
+            <!-- heading starts -->
+            <div style="background-color:brown;color:white;text-align:center;">
+                <h4>Request for New Pan card or /And changes or correction in PAN Data</h4>
+                <p>Field marked with <spam>*</spam> (asterisk are mandetory) to avoid mistake(s), please refer <u
+                        style="color:orange">guidelines</u> and <u style="color:orange">instructions</u></p>
+            </div>
+            <!-- heading ends -->
+            <!-- table starts -->
+            <div>
+                <table style="width:100%; font-weight: bold;">
+                    <tr>
+                        <td></td>
+                        <td>
+                            <spam>*</spam>
+                            Whether citizen of India
+                            <label for="yes" style="padding-left: 40px;font-weight: light;">Yes</label>
+                            <input type="radio" name="" id="Yes">
+
+                            <label for="no" style="padding-left: 20px;font-weight:light;">No</label>
+                            <input type="radio" name="" id="No">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <spam>*</spam>
+                            Permanat Account number (PAN)
+                            <label for="text">text</label>           
+                            <input type="text" name="" id="text">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+        <!-- heading+table ends -->
+
+
+
+    </div>
+
+</body>
+
+</html>
